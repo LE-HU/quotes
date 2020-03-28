@@ -1,14 +1,23 @@
+* {
+  color: blue;
+  background-color: blue;
+}
+
 #container {
   margin: auto;
   width: 35%;
+}
 
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #quote-box {
-  background-color: coral;
+  background-color: white;
   border-radius: 10px;
-  box-shadow: 2px 2px #000;
-  box-shadow: 3px 3px #000;
   display: grid;
   height: 250px;
   padding: 10px 30px;
@@ -17,6 +26,7 @@
 }
 
 #text-area {
+  background-color: white;
   font-family: 'Montserrat', 'Lato', sans-serif;
   font-size: 1.8em;
   align-self: start;
@@ -25,12 +35,14 @@
 }
 
 #text {
+  background-color: white;
   padding: 5px;
 }
 
 /* font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit; */
 
 #author-area {
+  background-color: white;
   font-family: 'Montserrat', 'Lato', sans-serif;
   justify-self: end;
   font-size: 1.2em;
@@ -38,15 +50,32 @@
 }
 
 #author {
+  background-color: white;
   padding-left: 8px;
 }
 
-.button {
+#buttons-area {
   background-color: white;
-  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  color: white;
+  padding: 5px 6px;;
   border: none;
   border-radius: 4px;
   font-size: 1.2em;
+}
+
+#twitter-link i{
+  color: white;
+}
+
+#new-quote {
+
 }
 
 .smaller-text {
