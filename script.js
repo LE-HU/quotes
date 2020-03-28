@@ -1,5 +1,5 @@
 console.log("Welcome! Thank you for viewing my website. ~ le-hu");
-
+console.log(quotesObj.quotes[0]);
 const quotes = [
 ["quote", "author"],
 ["If you can dream it, you can achieve it.", "Zig Ziglar"],
@@ -21,9 +21,9 @@ function getRandomIntInclusive(min, max) {
 
 newQuote.addEventListener('click', e => {
   let randQuote = getRandomIntInclusive(1, quotes.length - 1);
-  quoteText.textContent = quotes[randQuote][0];
+  quoteText.textContent = quotesObj.quotes[randQuote]["quote"];
 
-  quoteAuthor.textContent = quotes[randQuote][1];
+  quoteAuthor.textContent = quotesObj.quotes[randQuote]["author"];
 
   if (quotes[randQuote][0].length > 100) {
     quoteText.classList.add("smaller-text");
