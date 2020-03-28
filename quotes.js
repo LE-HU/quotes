@@ -138,7 +138,7 @@ const quotesObj = {
               "quote": "Start where you are. Use what you have.  Do what you can.",
               "author": "Arthur Ashe"
        }, {
-              "quote": "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
+              "quote": "My mother always told me that happiness was the key to life.  At school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
               "author": "John Lennon"
        }, {
               "quote": "Fall seven times and stand up eight.",
@@ -298,7 +298,7 @@ const quotesObj = {
               "author": "Benjamin Franklin"
        }, {
               "quote": "Nothing is impossible, the word itself says, “I’m possible!”",
-              "author": "–Audrey Hepburn"
+              "author": "Audrey Hepburn"
        }, {
               "quote": "The only way to do great work is to love what you do.",
               "author": "Steve Jobs"

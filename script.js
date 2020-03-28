@@ -1,12 +1,4 @@
 console.log("Welcome! Thank you for viewing my website. ~ le-hu");
-console.log(quotesObj.quotes[0]);
-const quotes = [
-["quote", "author"],
-["If you can dream it, you can achieve it.", "Zig Ziglar"],
-["The only way to do great work is to love what you do.", "Steve Jobs"],
-["Nothing is impossible, the word itself says, “I’m possible!”", "Audrey Hepburn"],
-["Either write something worth reading or do something worth writing.", "Benjamin Franklin"]];
-
 
 let quoteText = document.getElementById("text");
 let quoteAuthor = document.getElementById("author");
@@ -20,15 +12,18 @@ function getRandomIntInclusive(min, max) {
 }
 
 newQuote.addEventListener('click', e => {
-  let randQuote = getRandomIntInclusive(1, quotes.length - 1);
+  let randQuote = getRandomIntInclusive(1, quotesObj.quotes.length - 1);
   quoteText.textContent = quotesObj.quotes[randQuote]["quote"];
 
   quoteAuthor.textContent = quotesObj.quotes[randQuote]["author"];
 
-  if (quotes[randQuote][0].length > 100) {
+  if (quotesObj.quotes[randQuote]["quote"].length > 180) {
+    quoteText.classList.add("even-smaller-text");
+  } else if (quotesObj.quotes[randQuote]["quote"].length > 100) {
     quoteText.classList.add("smaller-text");
   } else {
     quoteText.classList.remove("smaller-text");
+    quoteText.classList.remove("even-smaller-text");
   }
 });
 

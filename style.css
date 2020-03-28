@@ -41,22 +41,18 @@
   padding-left: 8px;
 }
 
-#new-quote {
+.button {
   background-color: white;
   padding: 5px;
   border: none;
   border-radius: 4px;
-  font-size: 0.8em;
-}
-
-.small-button {
-  background-color: white;
-  padding: 2px;
-  border: none;
-  border-radius: 4px;
-  font-size: 0.8em;
+  font-size: 1.2em;
 }
 
 .smaller-text {
   font-size: 0.8em;
+}
+
+.even-smaller-text {
+  font-size: 0.5em;
 }
