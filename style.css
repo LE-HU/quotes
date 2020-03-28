@@ -1,4 +1,4 @@
-* {
+body {
   color: blue;
   background-color: blue;
 }
@@ -63,6 +63,7 @@
 }
 
 .button {
+  background-color: blue;
   color: white;
   padding: 5px 6px;;
   border: none;
@@ -72,10 +73,6 @@
 
 #twitter-link i{
   color: white;
-}
-
-#new-quote {
-
 }
 
 .smaller-text {
