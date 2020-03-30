@@ -205,7 +205,7 @@ const quotesObj = {
               "author": "Bill Cosby"
        }, {
               "quote": "A person who never made a mistake never tried anything new.",
-              "author": " Albert Einstein"
+              "author": "Albert Einstein"
        }, {
               "quote": "The person who says it cannot be done should not interrupt the person who is doing it.",
               "author": "Chinese Proverb"
@@ -303,7 +303,44 @@ const quotesObj = {
               "quote": "The only way to do great work is to love what you do.",
               "author": "Steve Jobs"
        }, {
+              "quote": "Do not pray for an easy life. Pray for the strength to endure a difficult one.",
+              "author": "Bruce Lee"
+       }, {
+              "quote": "Only those who dare to fail greatly can ever achieve greatly.",
+              "author": "Robert F. Kennedy"
+       }, {
+              "quote": "You can't pick a gene.",
+              "author": "Michal Zontek"
+       }, {
+              "quote": "Wednesday is like a little Saturday.",
+              "author": "Aleksander Sucheta"
+       }, {
+              "quote": "Nobody will tell us, that white is white and black is black.",
+              "author": "Jaroslaw Kaczynski"
+       }, {
+              "quote": "You can't kick a snake in his leg.",
+              "author": "Aleksander Sucheta"
+       }, {
+              "quote": "It's after birds.",
+              "author": "Donald Tusk"
+       }, {
+              "quote": "Thank you from the mountain.",
+              "author": "Donald Tusk"
+       }, {
+              "quote": "Do it that it's good.",
+              "author": "Wojciech Lech"
+       }, {
+              "quote": "Mind there's always someone better than you.",
+              "author": "Wojciech Lech"
+       }, {
+              "quote": "Have no fear of perfection - you'll never reach it.",
+              "author": "Salvador Dalí"
+       }, {
+              "quote": "Do the difficult things while they are easy and do the great things while they are small. A journey of a thousand miles must begin with a single step.",
+              "author": "Lao Tzu"
+       }, {
               "quote": "If you can dream it, you can achieve it.",
               "author": "Zig Ziglar"
        }]
 };
+
