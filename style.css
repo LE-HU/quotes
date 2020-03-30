@@ -20,16 +20,16 @@ body {
   background-color: white;
   border-radius: 10px;
   display: grid;
-  height: 250px;
+  height: 280px;
   padding: 10px 30px;
-  grid-template-rows: 140px 40px 40px;
+  grid-template-rows: 170px 40px 40px;
   box-sizing: border-box;
 }
 
 #text-area {
   background-color: white;
   font-family: 'Montserrat', 'Lato', sans-serif;
-  font-size: 1.8em;
+  font-size: 1.6em;
   line-height: 1.4;
   align-self: start;
   justify-self: center;
@@ -78,11 +78,11 @@ body {
 }
 
 .smaller-text {
-  font-size: 0.8em;
+  font-size: 0.85em;
 }
 
 .even-smaller-text {
-  font-size: 0.5em;
+  font-size: 0.65em;
 }
 
 @media (max-width: 1400px) {
@@ -98,3 +98,4 @@ body {
     transform: scale(1.2);
   }
 }
+

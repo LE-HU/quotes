@@ -1,6 +1,6 @@
 console.log("Welcome! Thank you for viewing my website. ~ le-hu");
 
-const colors = ['#ffa41b', '#000839', '#005082', '#00a8cc', '#2b580c', '#639a67', '#400082', "#fe346e", "#00bdaa", "#512b58", "#323232", "#721b65", "#b80d57", "#f8615a", "#413c69", "#4a47a3", "#ad62aa", "#5a3f11", "#9c5518", "#ef962d", "#4f3961", "#da527c", "#416788", "#53698e", "#19381f", "#7d4e57", "#485665"];
+const colors = ['#804D4D', '#7F5D4C', '#7F6E4C', '#7F7F4C', '#6E7F4C', '#5D7F4C', '#4C7F4C', "#4C7F5D", "#4C7F6E", "#4C7F7F", "#4C6E7F", "#4C5D7F", "#4C4C7F", "#5D4C7F", "#6E4C7F", "#7F4C7F", "7F4C6E", "#7F4C5D"];
 
 const bodyElement = document.getElementById("bodyElement");
 const quoteText = document.getElementById("text");
