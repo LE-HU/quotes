@@ -309,29 +309,14 @@ const quotesObj = {
               "quote": "Only those who dare to fail greatly can ever achieve greatly.",
               "author": "Robert F. Kennedy"
        }, {
-              "quote": "You can't pick a gene.",
-              "author": "Michal Zontek"
-       }, {
-              "quote": "Wednesday is like a little Saturday.",
-              "author": "Aleksander Sucheta"
-       }, {
               "quote": "Nobody will tell us, that white is white and black is black.",
               "author": "Jaroslaw Kaczynski"
-       }, {
-              "quote": "You can't kick a snake in his leg.",
-              "author": "Aleksander Sucheta"
        }, {
               "quote": "It's after birds.",
               "author": "Donald Tusk"
        }, {
               "quote": "Thank you from the mountain.",
               "author": "Donald Tusk"
-       }, {
-              "quote": "Do it that it's good.",
-              "author": "Wojciech Lech"
-       }, {
-              "quote": "Mind there's always someone better than you.",
-              "author": "Wojciech Lech"
        }, {
               "quote": "Have no fear of perfection - you'll never reach it.",
               "author": "Salvador Dalí"
