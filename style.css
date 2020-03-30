@@ -1,6 +1,6 @@
 body {
-  color: blue;
-  background-color: blue;
+  color: #FFF;
+  background-color: #FFF;
 }
 
 #container {
@@ -65,7 +65,7 @@ body {
 }
 
 .button {
-  background-color: blue;
+  background-color: #FFF;
   color: white;
   padding: 5px 6px;;
   border: none;
