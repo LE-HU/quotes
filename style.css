@@ -82,3 +82,15 @@ body {
 .even-smaller-text {
   font-size: 0.5em;
 }
+
+@media (max-width: 1400px){
+  .container {
+    width:60%;
+  }
+}
+
+@media (max-width: 1000px){
+  .container {
+    width:80%;
+  }
+}
