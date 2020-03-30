@@ -87,15 +87,15 @@ body {
 
 @media (max-width: 1400px) {
   #container {
-    width:60%;
-    transform: scale(1.2);
+    width:55%;
+    transform: scale(1.15);
   }
 }
 
 @media (max-width: 1000px) {
   #container {
-    width:80%;
-    transform: scale(1.4);
+    width:75%;
+    transform: scale(1.3);
   }
 }
 
