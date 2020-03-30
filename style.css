@@ -78,11 +78,11 @@ body {
 }
 
 .smaller-text {
-  font-size: 0.85em;
+  font-size: 0.9em;
 }
 
 .even-smaller-text {
-  font-size: 0.65em;
+  font-size: 0.7em;
 }
 
 @media (max-width: 1400px) {

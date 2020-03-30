@@ -1,4 +1,4 @@
-console.log("Welcome! Thank you for viewing my website. ~ le-hu");
+console.log("Welcome! Thank you for viewing my quotes project. ~ le-hu");
 
 const colors = ['#804D4D', '#7F5D4C', '#7F6E4C', '#7F7F4C', '#6E7F4C', '#5D7F4C', '#4C7F4C', "#4C7F5D", "#4C7F6E", "#4C7F7F", "#4C6E7F", "#4C5D7F", "#4C4C7F", "#5D4C7F", "#6E4C7F", "#7F4C7F", "7F4C6E", "#7F4C5D"];
 
@@ -8,8 +8,6 @@ const quoteAuthor = document.getElementById("author");
 const newQuote = document.getElementById("new-quote");
 const twitterButton = document.getElementById("twitter-link");
 const buttonsElements = document.getElementsByClassName("button");
-
-console.log(buttonsElements);
 
 function getRandomIntInclusive(min, max) {
   min = Math.ceil(min);
@@ -44,6 +42,7 @@ window.addEventListener('DOMContentLoaded', e => {
     quoteText.classList.add("even-smaller-text");
   } else if (quotesObj.quotes[randQuote]["quote"].length > 100) {
     quoteText.classList.add("smaller-text");
+    quoteText.classList.remove("even-smaller-text");
   } else {
     quoteText.classList.remove("smaller-text");
     quoteText.classList.remove("even-smaller-text");
