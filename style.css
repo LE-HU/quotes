@@ -6,6 +6,7 @@ body {
 #container {
   margin: auto;
   width: 35%;
+  padding-top: 300px;
 }
 
 .centered {
@@ -29,6 +30,7 @@ body {
   background-color: white;
   font-family: 'Montserrat', 'Lato', sans-serif;
   font-size: 1.8em;
+  line-height: 1.4;
   align-self: start;
   justify-self: center;
   padding-top: 1px;
@@ -83,16 +85,16 @@ body {
   font-size: 0.5em;
 }
 
-@media (max-width: 1400px){
-  .container {
+@media (max-width: 1400px) {
+  #container {
     width:60%;
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 }
 
-@media (max-width: 1000px){
-  .container {
+@media (max-width: 1000px) {
+  #container {
     width:80%;
-    transform: scale(2);
+    transform: scale(1.2);
   }
 }
